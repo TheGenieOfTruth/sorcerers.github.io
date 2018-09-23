@@ -137,7 +137,7 @@ function fonts() {
   WebFont.load({
       custom: {
           families: ['Mono'],
-          urls: ["sorcerers.github.io/stylesheet.css"]
+          urls: ["stylesheet.css"]
       },
       active: e => {
           console.log("font loaded!");
