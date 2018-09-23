@@ -137,7 +137,7 @@ function fonts() {
   WebFont.load({
       custom: {
           families: ['Mono'],
-          urls: ["/stylesheet.css"]
+          urls: ["stylesheet.css"]
       },
       active: e => {
           console.log("font loaded!");
